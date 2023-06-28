@@ -4,15 +4,16 @@
     <router-link to="/about">About</router-link>
   </nav> -->
   <NavBarComp/>
-
+  <FooterComp/>
   <router-view/>
 </template>
 <script>
 import NavBarComp from './components/NavBar.vue'
+import FooterComp from './components/Footer.vue'
 
 export default {
   components: {
-    NavBarComp
+    NavBarComp, FooterComp
   }
 }
 </script>

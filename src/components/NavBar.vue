@@ -12,7 +12,7 @@
       </div>
       <div id="hover">
         <router-link to="/"> Proudct</router-link> |
-        <router-link to="/"> About</router-link>    |
+        <router-link to="/about"> About</router-link>    |
         <router-link to="/"> Admin</router-link>    |
         <router-link to="/"> Contact</router-link>
       </div>
