@@ -1,14 +1,55 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
-  </nav>
+  </nav> -->
+  <NavBarComp/>
+
   <router-view/>
 </template>
+<script>
+import NavBarComp from './components/NavBar.vue'
+
+export default {
+  components: {
+    NavBarComp
+  }
+}
+</script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: linear-gradient(to right, #03001e, #7303c0, #24243e);
+  animation: spinning 15s ease infinite;
+  background-size: 200% 200%;
+  background-attachment: fixed;
+  font-family: "Bruno Ace", cursive;
+}
+
+@keyframes spinning {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 150%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
+/* #app {
+  font-family: "Bruno Ace", cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -26,5 +67,5 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 </style>
