@@ -1,5 +1,5 @@
 <template>
-  <section id="first-view">
+  <nav id="first-view">
     <div id="mySidenav" class="sidenav">
       <div id="top">
         <router-link to="/">
@@ -17,12 +17,7 @@
         <router-link to="/"> Contact</router-link>
       </div>
     </div>
-    <!-- <div id="main">
-      <span style="font-size: 200%; cursor: pointer" @click="closeNav"
-        >&#9776;</span
-      >
-    </div> -->
-  </section>
+  </nav>
 </template>
 
 <style scoped>

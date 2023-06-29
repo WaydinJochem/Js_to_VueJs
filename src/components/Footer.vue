@@ -32,26 +32,30 @@ export default {
 }
 </script>
 <style scoped>
-footer {
-  background-color: rgb(59, 5, 59);
-  padding: 2%;
+.links {
+text-align: center;
 }
 
-.sections {
-  text-align: center;
-}
-#copy {
-  font-size: large;
-}
-.icons {
-  width: 2%;
-  border-radius: 50%;
-  /* do media query*/
-}
-#conditions {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  align-items: center;
-  margin-left: 5%;
-}
+footer {
+    background-color: rgb(59, 5, 59);
+    padding: 2%;
+  }
+  
+  .sections {
+    text-align: center;
+  }
+  #copy {
+    font-size: large;
+  }
+  .icons {
+    width: 2%;
+    border-radius: 50%;
+    /* do media query*/
+  }
+  #conditions {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-left: 5%;
+  }
 </style>

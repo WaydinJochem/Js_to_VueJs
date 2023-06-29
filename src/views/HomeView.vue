@@ -3,18 +3,18 @@
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div> -->
-  <section>
-    <h1 id="Store">GuNs GaRloRe</h1>
-    <div id="intro">
-      <p>Your One Stop Store for Guns and More</p>
-      <br />
-      <p>Shop no further than Guns Garlore</p>
-    </div>
-    <div>
-      <h2 id="promo">Popular Products</h2>
-      <section id="added"></section>
-    </div>
-  </section>
+  <main>
+    <section id="first-view">
+      <h1 id="Store">GuNs GaRloRe</h1>
+      <div id="intro">
+        <p>Your One Stop Store for Guns and More</p>
+        <br />
+        <p>Shop no further than Guns Garlore</p>
+      </div>
+    </section>
+    <h2 id="promo">Popular Products</h2>
+    <section id="added"></section>
+  </main>
 </template>
 
 <script>
@@ -22,12 +22,12 @@
 
 
 export default {
-  
+
 }
 </script>
 <style>
 #first-view {
-  background-image: url ("src/assets/istockphoto-1205603080-612x612.jpg");
+  background-image: url('https://i.postimg.cc/rpdqdL5C/istockphoto-1205603080-612x612.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 2%;

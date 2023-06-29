@@ -4,8 +4,8 @@
     <router-link to="/about">About</router-link>
   </nav> -->
   <NavBarComp/>
-  <FooterComp/>
   <router-view/>
+  <FooterComp/>
 </template>
 <script>
 import NavBarComp from './components/NavBar.vue'
