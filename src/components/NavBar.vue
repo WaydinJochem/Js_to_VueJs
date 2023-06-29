@@ -11,10 +11,10 @@
         <!-- <router-link to="/" @click="openNav"> &times;</router-link> -->
       </div>
       <div id="hover">
-        <router-link to="/"> Proudct</router-link> |
+        <router-link to="/products"> Proudcts</router-link> |
         <router-link to="/about"> About</router-link>    |
-        <router-link to="/"> Admin</router-link>    |
-        <router-link to="/"> Contact</router-link>
+        <router-link to="/admin"> Admin</router-link>    |
+        <router-link to="/contact"> Contact</router-link>
       </div>
     </div>
   </nav>
