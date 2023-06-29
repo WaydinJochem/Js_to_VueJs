@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkjs_to_vuejs"]=self["webpackChunkjs_to_vuejs"]||[]).push([[443],{833:function(n,s,u){u.r(s),u.d(s,{default:function(){return l}});var t=u(3396);const e={class:"about"},a=(0,t._)("h1",null,"This is an about page",-1),r=[a];function c(n,s){return(0,t.wg)(),(0,t.iD)("div",e,r)}var o=u(89);const i={},f=(0,o.Z)(i,[["render",c]]);var l=f}}]);
+//# sourceMappingURL=about.0b84af4a.js.map
