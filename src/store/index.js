@@ -20,7 +20,7 @@ export default createStore({
         .then((products) => context.commit("setProducts", products));
     },
     getProduct: async (context, id) => {
-      fetch("https://waydinjochem.github.io/api/db.json   " + id)
+      fetch("https://waydinjochem.github.io/api/db.json/" + id)
         .then((res) => res.json())
         .then((product) => context.commit("setProduct", product));
     }
